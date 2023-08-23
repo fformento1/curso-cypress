@@ -1,4 +1,5 @@
 /// <reference types="cypress" />
+
 describe("Actividad complementaria", () => {
   const numeroRandom = Math.floor(Math.random() * 1000);
   let nombre = `Comision9${numeroRandom}`;
