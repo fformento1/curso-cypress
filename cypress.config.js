@@ -9,4 +9,8 @@ module.exports = defineConfig({
     watchForFileChanges: false,
     defaultCommandTimeout: 5000,
   },
+  env: {
+    username: "pushingit",
+    password: "123456!",
+  }
 });
